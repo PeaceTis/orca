@@ -43,6 +43,14 @@ export const KEYBINDING_DEFINITION_CORE_3: readonly KeybindingDefinition[] = [
     defaultBindings: platformBindings(['Mod+F'])
   },
   {
+    id: 'editor.goToDefinition',
+    title: 'Go to Definition',
+    group: 'Editors',
+    scope: 'editor',
+    searchKeywords: ['shortcut', 'editor', 'go to definition', 'jump', 'symbol', 'declaration'],
+    defaultBindings: platformBindings(['Mod+B', 'F12'])
+  },
+  {
     id: 'editor.replace',
     title: 'Replace in editor',
     group: 'Editors',
