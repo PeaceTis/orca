@@ -48,7 +48,8 @@ export const KEYBINDING_DEFINITION_CORE_3: readonly KeybindingDefinition[] = [
     group: 'Editors',
     scope: 'editor',
     searchKeywords: ['shortcut', 'editor', 'go to definition', 'jump', 'symbol', 'declaration'],
-    defaultBindings: platformBindings(['Mod+B', 'F12'])
+    defaultBindings: platformBindings(['Mod+B', 'F12']),
+    allowBareKeybindings: true
   },
   {
     id: 'editor.replace',
